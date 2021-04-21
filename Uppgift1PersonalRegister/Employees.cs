@@ -6,9 +6,10 @@ namespace Uppgift1PersonalRegister
 {
     class Employees
     {
-        public string firstName;
-        public string lastName;
-        public int salary;
+        
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Salary { get; set; }
 
     }
 
